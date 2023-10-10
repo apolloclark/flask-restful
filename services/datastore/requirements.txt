@@ -1,0 +1,35 @@
+# https://pip.pypa.io/en/stable/reference/requirements-file-format/
+
+# core
+wheel==0.41.2 # https://pypi.org/project/wheel/
+# packaging==23.2 # https://pypi.org/project/packaging/
+gitpython==3.1.37 # https://pypi.org/project/GitPython/
+
+# webapp
+flask==3.0.0 # https://pypi.org/project/Flask/#history
+flask-restful==0.3.10 # https://pypi.org/project/Flask-RESTful/
+
+# database
+flask-sqlalchemy==3.1.1 # https://pypi.org/project/Flask-SQLAlchemy/
+psycopg2-binary==2.9.9 # https://pypi.org/project/psycopg2-binary/
+flask-marshmallow==0.15.0 # https://pypi.org/project/flask-marshmallow/
+marshmallow-sqlalchemy==0.29.0 # https://pypi.org/project/marshmallow-sqlalchemy/
+
+# code quality
+black==23.9.1 # https://pypi.org/project/black/
+radon==6.0.1 # https://pypi.org/project/radon/
+flake8==6.1.0 # https://pypi.org/project/flake8/
+flake8-docstrings==1.7.0 # https://pypi.org/project/flake8-docstrings/
+# flake8-import-order==0.18.2
+flake8-functions==0.0.8 # https://pypi.org/project/flake8-functions/
+isort==5.12.0 # https://pypi.org/project/isort/
+safety==2.4.0b1 # https://pypi.org/project/safety/
+bandit==1.7.5 # https://pypi.org/project/bandit/
+
+
+# testing
+pytest==7.4.2 # https://pypi.org/project/pytest/
+pytest-cov==4.1.0 # https://pypi.org/project/pytest-cov/
+pytest-sugar==0.9.7 # https://pypi.org/project/pytest-sugar/
+pytest-flask-sqlalchemy==1.1.0 # https://pypi.org/project/pytest-flask-sqlalchemy/
+hypothesis==6.87.3 # https://pypi.org/project/hypothesis/
